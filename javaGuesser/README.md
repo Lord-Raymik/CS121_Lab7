@@ -16,11 +16,11 @@ Calls constructor for Guesser class
 
 ### constructor (basically main)
 ```
-make String response, set it to the empty string
+make int response, set it to 0
 make Boolean keepGoing, set it to true
 while keepGoing
     call printMenu() to print the menu to the console
-    use input.nextLine() to set response to what the user inputs
+    use input.nextInt() to set response to what the user inputs
     if response is 0
         set keepGoing to false
     if response is 1
@@ -41,7 +41,7 @@ print the options to the console
 ```
 make int number, use Math.random() to set it to a value between 1-100
 make int turns, set it to 0
-make String guess, set it to the empty string
+make int guess, set it to 0
 make Boolean keepGoing, set it to true
 while keepGoing
     increment turns by 1
